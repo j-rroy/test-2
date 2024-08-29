@@ -1,0 +1,61 @@
+.container-fluid i{
+    font-size: 40px;
+    margin-right: 7px;
+    color: rgb(255, 165, 0);
+}
+.section-heading{
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    width: fit-content;
+    margin: auto;
+    color: orange;
+}
+.food-card{
+    border: .5px solid rgba(141, 141, 141, 0.384);
+    border-radius: 10px;
+}
+.food-card:hover{
+    border: 1px solid orange;
+    box-shadow: 0px 0px 20px 1px black;
+    transition-duration: 500ms;
+}
+.feedback-card{
+    border: 0px solid orange;
+    border-radius: 10px;
+    background-color: rgb(245, 239, 218);
+    
+}
+.img img{
+    margin: 30px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+.feedback-card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**about**/
+.staff-container{
+    justify-content: center;
+}
+.staff-card{
+    border: 6px solid rgb(255, 217, 0);
+    border-radius: 26px;
+    box-shadow: 8px 10px 20px 1px ;
+}
+.staff-card img{
+    border-radius: 20px;
+}
+.cc-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.company-card{
+    border: 6px solid rgb(255, 217, 0);
+    border-radius: 26px;
+    box-shadow: 8px 10px 20px 1px ;
+}
